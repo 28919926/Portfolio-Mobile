@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;700;900&family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,100;1,400&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 375px;
+  height: 6715px;
+  background: #fff;
+}
+
+nav {
+  position: absolute;
+  width: 375px;
+  left: 0;
+  right: 0;
+  top: 44px;
+  bottom: 0;
+  justify-content: space-between;
+  display: flex;
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+}
+
+#menu {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px;
+  width: 40px;
+  height: 40px;
+  right: 24px;
+  top: calc(50% - 40px / 2);
+  border-radius: 8px;
+  order: 0;
+  flex-grow: 0;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 12px;
+  left: 12px;
+  top: calc(50% - 48px / 2);
+  width: 114px;
+  height: 28px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #28352f;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 64px 24px;
+  gap: 58px;
+  background-image: url(/images/header-illsutration-mobile.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 375px;
+  height: 726px;
+  left: 0;
+  top: 92px;
+}
+
+h1 {
+  width: 327px;
+  height: 192px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #172b4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-left: -24px;
+}
+
+#green {
+  color: green;
+}
+
+.text {
+  width: 327px;
+  height: 164px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #172b4d;
+  margin-left: -24px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.socialmedia-icons {
+  width: 170.17px;
+  height: 20px;
+  justify-content: space-between;
+  display: inline;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.socialmedia-icons li {
+  flex-direction: column;
+  justify-content: space-between;
+  display: inline-flex;
+  padding: 6px;
+}

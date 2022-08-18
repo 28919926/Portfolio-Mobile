@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# PORTFOLIO MOBILE 
 
 > Description the project.
 
@@ -8,12 +8,14 @@
 ## Built With
 
 - Major languages
+ 1.HTML
+ 2.CSS
+
 - Frameworks
+  LINTERS
+
 - Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
+  GITHUB
 
 
 ## Getting Started
@@ -38,19 +40,14 @@ To get a local copy up and running follow these simple example steps.
 
 
 
-## Authors
+## Author
 
-👤 **Author1**
+👤 **DESMOND WANJALA**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/28919926)
+- Twitter: [@twitterhandle](https://twitter.com/wanjala_desmond)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/wanjala-desmond-000927b6/)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
@@ -64,9 +61,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Gives thanks to God and my daughter for the support 
+- Thanks to my friend Vivian for the inspiration and microverse community.
 
 ## 📝 License
 
