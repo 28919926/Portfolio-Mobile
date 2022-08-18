@@ -5,19 +5,22 @@
   margin: 0;
 }
 
+.main-container {
+  position: relative;
+  width: 375px;
+  height: 6715px;
+  background: #fff;
+}
+
 nav {
   position: absolute;
   width: 375px;
-  height: 92px;
   left: 0;
   right: 0;
   top: 44px;
   bottom: 0;
-  display: flex;
   justify-content: space-between;
-  flex-direction: row;
-  list-style: none;
-  padding: 10px 12px;
+  display: flex;
 }
 
 a {
@@ -25,16 +28,35 @@ a {
   text-decoration: none;
 }
 
+#menu {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px;
+  width: 40px;
+  height: 40px;
+  right: 24px;
+  top: calc(50% - 40px / 2);
+  border-radius: 8px;
+  order: 0;
+  flex-grow: 0;
+}
+
 .welcome {
-  width: 90px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 12px;
+  left: 12px;
+  top: calc(50% - 48px / 2);
+  width: 114px;
   height: 28px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
   line-height: 28px;
-  display: flex;
-  align-items: center;
   text-align: center;
   color: #28352f;
   flex: none;
@@ -70,6 +92,7 @@ h1 {
   flex: none;
   order: 0;
   flex-grow: 0;
+  margin-left: -24px;
 }
 
 #green {
@@ -86,6 +109,7 @@ h1 {
   line-height: 28px;
   text-align: center;
   color: #172b4d;
+  margin-left: -24px;
   flex: none;
   order: 1;
   flex-grow: 0;
