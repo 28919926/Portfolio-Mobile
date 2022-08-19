@@ -622,4 +622,644 @@ height: 352px;
 flex: none;
 order: 0;
 flex-grow: 0;
+box-sizing: border-box;
+
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+/* Theme 2 / Neutral 10 */
+
+background: #EBF0EE;
+/* Neutrals/N50 */
+
+border: 1px solid #C1C7D0;
+border-radius: 8px;
+}
+.title-tags{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+
+width: 327px;
+height: 96px;
+left: calc(50% - 327px/2);
+bottom: 72px;
+}
+
+.title{
+width: 337px;
+height: 32px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+
+text-align: center;
+
+/* Neutrals/N600 */
+
+color: #344563;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.icon {
+  width: 120px;
+  height: 120px;
+  left: 124px;
+  top: 24px;
+  margin-left: 96px;
+  margin-top: 50px;
+
+}
+ #tags1 .JAV{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  
+  width: 89px;
+  height: 40px;
+  
+  /* Neutrals/N0 */
+  
+  background: #FFFFFF;
+  border-radius: 8px;
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  
+width: 65px;
+height: 16px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+letter-spacing: 0.03em;
+
+/* Success/G300 */
+
+color: #36B37E;
+}
+#tags1 .RUBY{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  
+  background: #FFFFFF;
+  border-radius: 8px;
+  width: 31px;
+height: 16px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+letter-spacing: 0.03em;
+
+/* Success/G300 */
+
+color: #36B37E;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+  }
+
+
+  #tags1 .HTML{
+  display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px;
+
+width: 53px;
+height: 40px;
+
+/* Neutrals/N0 */
+
+background: #FFFFFF;
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+width: 29px;
+height: 16px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+letter-spacing: 0.03em;
+
+/* Success/G300 */
+
+color: #36B37E;
+    }
+    #tags1 .CSS{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 12px;
+      
+      width: 50px;
+      height: 40px;
+      
+      /* Neutrals/N0 */
+      
+      background: #FFFFFF;
+      border-radius: 8px;
+      
+      /* Inside auto layout */
+      
+      flex: none;
+      order: 3;
+      flex-grow: 0;
+      width: 26px;
+height: 16px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+letter-spacing: 0.03em;
+
+/* Success/G300 */
+
+color: #36B37E;
+
+      }
+
+  #tags1 li a {
+    color: #36B37E;
+  }
+
+ .bootstrap{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px;
+
+width: 84px;
+height: 40px;
+
+/* Neutrals/N0 */
+
+background: #FFFFFF;
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+width: 60px;
+height: 16px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+letter-spacing: 0.03em;
+
+/* Success/G300 */
+
+color: #36B37E;
+    
+}
+
+.ruby-on-rails{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px;
+
+
+/* Neutrals/N0 */
+
+background: #FFFFFF;
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+
+width: 80px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+letter-spacing: 0.03em;
+
+/* Success/G300 */
+
+color: #36B37E;
+}
+
+.Rspec {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px;
+
+width: 63px;
+height: 40px;
+
+/* Neutrals/N0 */
+
+background: #FFFFFF;
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+
+width: 39px;
+height: 16px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+letter-spacing: 0.03em;
+
+/* Success/G300 */
+
+color: #36B37E;
+}
+
+.card-framework li  {
+ flex-direction: column;
+ justify-content: space-between;
+ display: inline-flex;
+ padding: 6px;
+ margin-left: 5px;
+}
+
+.card-framework li a {
+  
+color: #36B37E;
+}
+
+#icon-2 li {
+flex-direction: column;
+ justify-content: space-between;
+ display: inline-flex;
+ padding: 6px;
+ margin-left: 5px;
+}
+
+
+
+#icon-2 a{
+  
+color: #36B37E;
+}
+
+
+#capybara{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px;
+
+width: 83px;
+height: 40px;
+
+/* Neutrals/N0 */
+
+background: #FFFFFF;
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+
+width: 59px;
+height: 16px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+letter-spacing: 0.03em;
+
+/* Success/G300 */
+
+color: #36B37E;
+}
+
+
+#Selenium {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  
+  width: 81px;
+  height: 40px;
+  
+  /* Neutrals/N0 */
+  
+  background: #FFFFFF;
+  border-radius: 8px;
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  width: 57px;
+height: 16px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+letter-spacing: 0.03em;
+
+/* Success/G300 */
+
+color: #36B37E;
+}
+
+.codekit{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px;
+
+width: 72px;
+height: 40px;
+
+/* Neutrals/N0 */
+
+background: #FFFFFF;
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+width: 48px;
+height: 16px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+letter-spacing: 0.03em;
+
+/* Success/G300 */
+
+color: #36B37E;
+
+}
+.github {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px;
+
+width: 67px;
+height: 40px;
+
+/* Neutrals/N0 */
+
+background: #FFFFFF;
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+width: 43px;
+height: 16px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+letter-spacing: 0.03em;
+
+/* Success/G300 */
+
+color: #36B37E;
+}
+
+.codepen{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px;
+
+width: 79px;
+height: 40px;
+
+/* Neutrals/N0 */
+
+background: #FFFFFF;
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+width: 55px;
+height: 16px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+letter-spacing: 0.03em;
+
+/* Success/G300 */
+
+color: #36B37E;
+
+}
+
+.gitlab {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px;
+
+width: 61px;
+height: 40px;
+
+/* Neutrals/N0 */
+
+background: #FFFFFF;
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 3;
+flex-grow: 0;
+width: 37px;
+height: 16px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+letter-spacing: 0.03em;
+
+/* Success/G300 */
+
+color: #36B37E;
+}
+
+.skills-tag li {
+  flex-direction: column;
+   justify-content: space-between;
+   display: inline-flex;
+   padding: 6px;
+   margin-left: 5px;
+}
+
+.skills-tag li a{
+  color: #36B37E;
+}
+
+#terminal li {
+  flex-direction: column;
+   justify-content: space-between;
+   display: inline-flex;
+   padding: 6px;
+   margin-left: 5px;
+}
+
+#terminal a{
+  color: #36B37E;
+}
+
+#terminal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  
+  
+  
+  /* Neutrals/N0 */
+  
+  background: #FFFFFF;
+  border-radius: 8px;
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  width: 53px;
+  height: 16px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+  
+  letter-spacing: 0.03em;
+  
+  /* Success/G300 */
+  
+  color: #36B37E;
+  
+}
+
+#icon1 {
+  width: 180px;
+  height: 180px;
+  left: 124px;
+  top: 24px;
+ margin-top: 2px;
+ margin-left: 75px;
+
+}
+
+#icon2 {
+  width: 180px;
+  height: 180px;
+  left: 124px;
+  top: 24px;
+ margin-top: 2px;
+ margin-left: 75px;
+
 }
