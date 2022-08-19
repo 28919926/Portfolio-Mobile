@@ -475,7 +475,7 @@ display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.03em;
-
+cursor: pointer;
 /* Theme 2 / Neutral 11 */
 
 color: #FFFFFF;
@@ -483,18 +483,7 @@ border-style: none;
 
 }
 
-#placeholder {
-width: 327px;
-left: 0px;
-right: 0px;
-top: 0px;
-bottom: 0px;
-height: 222px;
-/* Theme 2 / Neutral 10 */
-
-background: #EBF0EE;
-/* Theme 2 / Neutral 9 */
-
-border: 1px solid #D0D9D4;
-border-radius: 8px;
+button:hover {
+  background-color: #3A4A42;
+  color: #36B37E;
 }
