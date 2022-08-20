@@ -125,6 +125,8 @@ h1 {
   flex: none;
   order: 2;
   flex-grow: 0;
+  margin-left: 70px;
+
 }
 
 .socialmedia-icons li {
@@ -752,4 +754,244 @@ button:hover {
   margin-top: 20px;
   margin-left: 100px;
   list-style-type: none;
+}
+
+.form-container {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 64px 24px;
+gap: 58px;
+
+position: absolute;
+width: 375px;
+height: 879px;
+left: 0px;
+top: 5483px;
+}
+
+.form-text {
+  width: 327px;
+  height: 363px;
+  font-family: 'Inter',sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #172B4D;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 24px;
+margin-top: 128px;
+}
+
+.form {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 24px;
+width: 327px;
+height: 330px;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.text-form {
+  width: 327px;
+height: 48px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+height: 18px;
+left: 16px;
+right: 16px;
+top: calc(50% - 18px/2);
+
+/* Theme 2 / Text Input Normal */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+/* or 160% */
+
+display: flex;
+align-items: center;
+
+/* Theme 1 / Neutrals 6 */
+
+color: #6B778C;
+
+height: 48px;
+left: 0px;
+right: 0px;
+top: calc(50% - 48px/2);
+
+
+box-sizing: border-box;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+/* Theme 1 / Neutrals 11 */
+
+background: #FFFFFF;
+/* Theme 2 / Neutral 9 */
+
+border: 1px solid #D0D9D4;
+border-radius: 4px;
+
+}
+
+.email {
+width: 327px;
+height: 48px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+height: 18px;
+left: 16px;
+right: 16px;
+top: calc(50% - 18px/2);
+
+/* Theme 2 / Text Input Normal */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+/* or 160% */
+
+display: flex;
+align-items: center;
+
+/* Theme 1 / Neutrals 6 */
+
+color: #6B778C;
+height: 48px;
+left: 0px;
+right: 0px;
+top: calc(50% - 48px/2);
+
+box-sizing: border-box;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+/* Theme 1 / Neutrals 11 */
+
+background: #FFFFFF;
+/* Theme 2 / Neutral 9 */
+
+border: 1px solid #D0D9D4;
+border-radius: 4px;
+}
+
+.textarea {
+  width: 327px;
+  height: 114px;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+
+  
+box-sizing: border-box;
+
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+/* Theme 1 / Neutrals 11 */
+
+background: #FFFFFF;
+/* Theme 2 / Primary 3 */
+
+border: 1px solid #60C095;
+border-radius: 4px;
+left: 12px;
+right: 12px;
+top: 12px;
+bottom: 12px;
+
+/* Theme 2 / Text Input Normal */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+/* or 160% */
+
+
+/* Theme 1 / Neutrals 1 */
+
+color: #091E42;
+
+}
+
+.form-container-button {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px;
+gap: 10px;
+
+width: 135px;
+height: 48px;
+
+/* Theme 2 / Primary 2 */
+
+background: #36B37F;
+border-radius: 4px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 3;
+flex-grow: 0;
+
+/* Theme 2 / Button Normal */
+margin-left: 80px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 24px;
+/* identical to box height, or 141% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.03em;
+
+/* Theme 2 / Neutral 11 */
+
+color: #FFFFFF;
 }
