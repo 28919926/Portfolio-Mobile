@@ -8,7 +8,7 @@
 .main-container {
   position: relative;
   width: 375px;
-  height: 6715px;
+  height: 6680px;
   background: #fff;
   overflow: hidden;
 }
@@ -125,7 +125,7 @@ h1 {
   flex: none;
   order: 2;
   flex-grow: 0;
-  margin-left: 70px;
+
 
 }
 
@@ -366,10 +366,14 @@ button {
   color: #fff;
   border-style: none;
 }
-
 button:hover {
   background-color: #3a4a42;
   color: #36b37e;
+}
+
+button:active {
+  background: #0A2759;
+  color: #FFFFFF;
 }
 
 .about-me {
@@ -759,12 +763,14 @@ button:hover {
 .form-container {
 display: flex;
 flex-direction: column;
-align-items: flex-start;
+align-items: center;
 padding: 64px 24px;
 gap: 58px;
-
+background-image: url(/images/form.png);
+background-repeat: no-repeat;
+background-position-y: bottom;
+background-position-x: right;
 position: absolute;
-/* width: 375px; */
 height: 879px;
 left: 0px;
 top: 5483px;
@@ -802,58 +808,38 @@ height: 330px;
 flex: none;
 order: 1;
 flex-grow: 0;
+justify-content: center;
+margin-top: 170px;
 }
 
 .text-form {
-  width: 327px;
+width: 327px;
 height: 48px;
-
-
-/* Inside auto layout */
-
 flex: none;
 order: 0;
 flex-grow: 0;
-
-
 height: 18px;
 left: 16px;
 right: 16px;
 top: calc(50% - 18px/2);
-
-/* Theme 2 / Text Input Normal */
-
-font-family: 'Inter';
+font-family: 'Inter', sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 15px;
 line-height: 24px;
-/* or 160% */
-
 display: flex;
 align-items: center;
-
-/* Theme 1 / Neutrals 6 */
-
 color: #6B778C;
-
 height: 48px;
 left: 0px;
 right: 0px;
 top: calc(50% - 48px/2);
-
-
 box-sizing: border-box;
 left: 0px;
 right: 0px;
 top: 0px;
 bottom: 0px;
-
-/* Theme 1 / Neutrals 11 */
-
 background: #FFFFFF;
-/* Theme 2 / Neutral 9 */
-
 border: 1px solid #D0D9D4;
 border-radius: 4px;
 
@@ -862,10 +848,6 @@ border-radius: 4px;
 .email {
 width: 327px;
 height: 48px;
-
-
-/* Inside auto layout */
-
 flex: none;
 order: 1;
 flex-grow: 0;
@@ -873,38 +855,22 @@ height: 18px;
 left: 16px;
 right: 16px;
 top: calc(50% - 18px/2);
-
-/* Theme 2 / Text Input Normal */
-
-font-family: 'Inter';
+font-family: 'Inter', sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 15px;
 line-height: 24px;
-/* or 160% */
-
 display: flex;
 align-items: center;
-
-/* Theme 1 / Neutrals 6 */
-
 color: #6B778C;
 height: 48px;
-left: 0px;
-right: 0px;
 top: calc(50% - 48px/2);
-
 box-sizing: border-box;
 left: 0px;
 right: 0px;
 top: 0px;
 bottom: 0px;
-
-/* Theme 1 / Neutrals 11 */
-
 background: #FFFFFF;
-/* Theme 2 / Neutral 9 */
-
 border: 1px solid #D0D9D4;
 border-radius: 4px;
 }
@@ -912,46 +878,26 @@ border-radius: 4px;
 .textarea {
   width: 327px;
   height: 114px;
-  
-  
-  /* Inside auto layout */
-  
   flex: none;
   order: 2;
   flex-grow: 0;
-
-  
 box-sizing: border-box;
-
 left: 0px;
 right: 0px;
 top: 0px;
 bottom: 0px;
-
-/* Theme 1 / Neutrals 11 */
-
 background: #FFFFFF;
-/* Theme 2 / Primary 3 */
-
 border: 1px solid #60C095;
 border-radius: 4px;
 left: 12px;
 right: 12px;
 top: 12px;
 bottom: 12px;
-
-/* Theme 2 / Text Input Normal */
-
-font-family: 'Inter';
+font-family: 'Inter', sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 15px;
 line-height: 24px;
-/* or 160% */
-
-
-/* Theme 1 / Neutrals 1 */
-
 color: #091E42;
 
 }
@@ -962,36 +908,56 @@ flex-direction: row;
 align-items: center;
 padding: 12px;
 gap: 10px;
-
+margin-left: -15 px;
 width: 135px;
 height: 48px;
-
-/* Theme 2 / Primary 2 */
-
 background: #36B37F;
 border-radius: 4px;
-
-/* Inside auto layout */
-
 flex: none;
-order: 3;
-flex-grow: 0;
-
-/* Theme 2 / Button Normal */
 margin-left: 80px;
-font-family: 'Inter';
+font-family: 'Inter', sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 17px;
 line-height: 24px;
-/* identical to box height, or 141% */
-
-display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.03em;
-
-/* Theme 2 / Neutral 11 */
-
 color: #FFFFFF;
+}
+
+.footer-text {
+width: 375px;
+height: 189px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+text-align: center;
+color: #42526E;
+margin-top: -10px;
+border-radius: nullpx;
+
+}
+
+.form-social{
+  width: 170.17px;
+  height: 20px;
+  justify-content: space-between;
+  display: inline;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin-left: 70px;
+  
+
+}
+
+.form-social li {
+  flex-direction: column;
+  justify-content: space-between;
+  display: inline-flex;
+  padding: 6px;
+  margin-top: 50px;
 }
