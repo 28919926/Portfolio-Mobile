@@ -743,10 +743,10 @@ button:active {
   position: relative;
   justify-content: space-between;
   text-decoration: none;
-  min-width: 375px;
+
 }
 
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 768px) {
   .main-container {
     margin: auto;
     width: 97%;
@@ -842,9 +842,11 @@ button:active {
     height: 808px;
     left: 135px;
     top: 2031px;
+    display: flex;
   }
 
   .about-card {
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: -280px;
@@ -980,7 +982,7 @@ button:active {
   }
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 768px) {
   .nav-links ul li {
     display: none;
   }
