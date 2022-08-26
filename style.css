@@ -585,7 +585,7 @@ button:active {
   order: 1;
   flex-grow: 0;
   justify-content: center;
-  margin-top: 170px;
+  margin-top: 90px;
 }
 
 .text-form {
@@ -747,7 +747,7 @@ button:active {
 }
 
 @media screen and (min-width: 1500px) {
-  .comtainer {
+  .main-container {
     margin: auto;
     width: 97%;
   }
@@ -862,6 +862,13 @@ button:active {
     left: 135px;
     top: 3139px;
     padding: 80px 0;
+    margin-top: -150px;
+    margin-left: -30px;
+    background-image: url(/images/Frame@2x.png), url(/images/illustration-2-contact-form-desktop@2x.png), url(/images/Frame@3x.jpg);
+    background-repeat: no-repeat;
+    background-position-x: left, center, right;
+    background-position-y: bottom, center, bottom;
+    background-size: 7%;
   }
 
   .form-text {
@@ -890,6 +897,7 @@ button:active {
     width: 684px;
     height: 330px;
     margin-top: 380px;
+    margin-left: -40px;
   }
 
   .form-social {
@@ -995,7 +1003,7 @@ button:active {
     height: 1106px;
   }
 
-  .table {
+  .form-table {
     display: none;
   }
 
