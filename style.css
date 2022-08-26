@@ -8,7 +8,7 @@
 .main-container {
   position: relative;
   min-width: 375px;
-  height: 6680px;
+  min-height: 6680px;
   background: #fff;
   overflow: hidden;
 }
@@ -866,9 +866,9 @@ button:active {
     margin-left: -30px;
     background-image: url(/images/Frame@2x.png), url(/images/illustration-2-contact-form-desktop@2x.png), url(/images/Frame@3x.jpg);
     background-repeat: no-repeat;
-    background-position-x: left, center, right;
-    background-position-y: bottom, center, bottom;
-    background-size: 7%;
+    background-position-x: left, left, right;
+    background-position-y: center, bottom, bottom;
+    background-size: 10%, 10%, 10%;
   }
 
   .form-text {
@@ -922,7 +922,7 @@ button:active {
   .text-form {
     display: flex;
     flex-direction: row;
-    margin-top: -450px;
+    margin-top: -50px;
   }
 
   .last-name {
@@ -947,7 +947,7 @@ button:active {
     background: #fff;
     border: 1px solid #d0d9d4;
     border-radius: 4px;
-    margin-top: -450px;
+    margin-top: -50px;
   }
 
   .email {
