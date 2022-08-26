@@ -78,7 +78,6 @@ a {
   min-height: 726px;
   left: 0;
   top: 92px;
-  
 }
 
 h1 {
@@ -95,7 +94,6 @@ h1 {
   order: 0;
   flex-grow: 0;
   margin-left: -24px;
-  
 }
 
 #green {
@@ -116,6 +114,21 @@ h1 {
   flex: none;
   order: 1;
   flex-grow: 0;
+  transition: all 0.8s;
+  animation-duration: 2s;
+  animation-name: text-slide;
+}
+
+@keyframes text-slide {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 .socialmedia-icons {
@@ -129,10 +142,10 @@ h1 {
 }
 
 .socialmedia-icons li:hover {
-transform: scalex(0.9);
-background-color: #36b37e;
-transition: all 0.4s;
-transform: rotate(360deg);
+  transform: scalex(0.9);
+  background-color: #36b37e;
+  transition: all 0.4s;
+  transform: rotate(360deg);
 }
 
 .form-social li:hover {
@@ -140,8 +153,8 @@ transform: rotate(360deg);
   background-color: #36b37e;
   transition: all 0.4s;
   transform: rotate(360deg);
-  }
-  
+}
+
 .socialmedia-icons li {
   flex-direction: column;
   justify-content: space-between;
@@ -377,14 +390,13 @@ button {
   cursor: pointer;
   color: #fff;
   border-style: none;
-  transition: all 0.3s;
+  transition: all 0.8s;
 }
 
 button:hover {
   background-color: #3a4a42;
   color: #36b37e;
-  transform: rotate(360deg) scale(0.5,1);
-  
+  transform: rotate(360deg);
 }
 
 button:active {
@@ -764,6 +776,9 @@ button:active {
   text-decoration: none;
 }
 
+.nav-links ul li a:hover {
+  color: #36b37f;
+}
 
 @media screen and (min-width: 768px) {
   .main-container {
@@ -796,7 +811,7 @@ button:active {
     text-align: center;
     letter-spacing: 0.37px;
   }
-  
+
   .text {
     flex-direction: row;
     width: 920px;
@@ -885,7 +900,9 @@ button:active {
     padding: 80px 0;
     margin-top: -150px;
     margin-left: -30px;
-    background-image: url(/images/Frame@2x.png), url(/images/illustration-2-contact-form-desktop@2x.png), url(/images/Frame@3x.jpg);
+    background-image: url(/images/Frame@2x.png),
+      url(/images/illustration-2-contact-form-desktop@2x.png),
+      url(/images/Frame@3x.jpg);
     background-repeat: no-repeat;
     background-position-x: left, left, right;
     background-position-y: center, bottom, bottom;
@@ -902,7 +919,7 @@ button:active {
     padding-left: 5%;
     gap: 24px;
     width: 463px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
