@@ -131,6 +131,49 @@ h1 {
   }
 }
 
+.socialmedia-icons li {
+  flex-direction: column;
+  justify-content: space-between;
+  display: inline-flex;
+  padding: 6px;
+}
+
+.card-tag li {
+  padding: 12px;
+  border-radius: 8px;
+  color: #36b37e;
+  background: #fff;
+}
+
+.form-social li {
+  flex-direction: column;
+  justify-content: space-between;
+  display: inline-flex;
+  padding: 6px;
+  margin-top: 50px;
+}
+
+.nav-links ul li {
+  list-style: none;
+  display: inline;
+  padding: 8px 12px;
+  position: relative;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.socialmedia-icons li:hover {
+  transform: scaleX(0.9) rotate(360deg);
+  background-color: #36b37e;
+  transition: 0.4s;
+}
+
+.form-social li:hover {
+  transform: scaleX(0.9) rotate(360deg);
+  background-color: #36b37e;
+  transition: 0.4s;
+}
+
 .socialmedia-icons {
   width: 170.17px;
   height: 20px;
@@ -139,27 +182,6 @@ h1 {
   flex: none;
   order: 2;
   flex-grow: 0;
-}
-
-.socialmedia-icons li:hover {
-  transform: scalex(0.9);
-  background-color: #36b37e;
-  transition: all 0.4s;
-  transform: rotate(360deg);
-}
-
-.form-social li:hover {
-  transform: scalex(0.9);
-  background-color: #36b37e;
-  transition: all 0.4s;
-  transform: rotate(360deg);
-}
-
-.socialmedia-icons li {
-  flex-direction: column;
-  justify-content: space-between;
-  display: inline-flex;
-  padding: 6px;
 }
 
 .recent-works {
@@ -530,13 +552,6 @@ button:active {
   flex-wrap: wrap;
 }
 
-.card-tag li {
-  padding: 12px;
-  border-radius: 8px;
-  color: #36b37e;
-  background: #fff;
-}
-
 .card-tag li a {
   color: #36b37e;
 }
@@ -759,23 +774,6 @@ button:active {
   margin-left: 70px;
 }
 
-.form-social li {
-  flex-direction: column;
-  justify-content: space-between;
-  display: inline-flex;
-  padding: 6px;
-  margin-top: 50px;
-}
-
-.nav-links ul li {
-  list-style: none;
-  display: inline;
-  padding: 8px 12px;
-  position: relative;
-  justify-content: space-between;
-  text-decoration: none;
-}
-
 .nav-links ul li a:hover {
   color: #36b37f;
 }
@@ -900,7 +898,8 @@ button:active {
     padding: 80px 0;
     margin-top: -150px;
     margin-left: -30px;
-    background-image: url(/images/Frame@2x.png),
+    background-image:
+      url(/images/Frame@2x.png),
       url(/images/illustration-2-contact-form-desktop@2x.png),
       url(/images/Frame@3x.jpg);
     background-repeat: no-repeat;
