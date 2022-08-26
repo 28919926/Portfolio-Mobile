@@ -743,7 +743,6 @@ button:active {
   position: relative;
   justify-content: space-between;
   text-decoration: none;
-
 }
 
 @media screen and (min-width: 768px) {
