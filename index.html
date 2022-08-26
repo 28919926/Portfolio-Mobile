@@ -21,6 +21,11 @@
                     <h2 class="welcome">Welcome</h2>
                 </a>
                 <div class="nav-links">
+                    <ul>
+                        <li><a href="#Portfolio">Portfolio</a></li>
+                        <li><a href="#About">About</a></li>
+                        <li><a href="#Contact">Contact</a></li>
+                    </ul>
                     <i id="menu" class="material-symbols-outlined">menu</i>
                 </div>
             </nav>
@@ -30,8 +35,8 @@
                 <span id="green"> I’m a software developer</span>
             </h1>
             <p class="text" id="ptext">
-                I can help you build a product ,<br> feature or website Look through<br> some of my work and
-                experience!<br> If you like what you see and have<br> a project you need coded,<br>
+                I can help you build a product , feature or website Look through some of my work and
+                experience! If you like what you see and have a project you need coded,<br>
                 don’t hestiate to contact me.
             </p>
             <ul class="socialmedia-icons">
@@ -54,7 +59,7 @@
         </section>
         <section class="recent-works">
             <img id="action" src="/images/Action.png" alt="">
-            <h2 id="text2">My Recent<br> Works</h2>
+            <h2 id="text2">My Recent Works</h2>
             <img id="indicator" src="/images/Indicator.png" alt="">
             <section class="card-work-row">
                 <!-- card 1 -->
@@ -142,7 +147,7 @@
             <div class="about-text">
                 <h3 class="P-text">About me</h3>
                 <h4 class="S-text"> I can help you build a product , feature or website Look through some of my work and
-                    experience! If you like what you see and have a project you need coded,
+                    experience! If you like what you see and have a project you need coded,<br>
                     don’t hestiate to contact me.</h4>
                 <button id="resume-button" type="button">Get My Resume</button>
             </div>
@@ -193,10 +198,16 @@
                     please
                     get in touch.</h2>
                 <div class="form">
-                    <form action="https://formspree.io/f/mqkngnbr" method="post">
-                        <input type="text" class="text-form" id="name" name="username" required maxlength="30"
-                            placeholder="    Full name"><br>
-
+                    <form action="https://formspree.io/f/mqkngnbr" method="POST">
+                        <table class="form-table">
+                            <tr>
+                        <td><input type="text" class="text-form" id="name" name="username" required maxlength="30"
+                            placeholder="    Full Name"></td>
+                            <td><input type="text" class="last-name" id="fname" name="username" required maxlength="30"
+                            placeholder="    Last Name"></tr>
+                        </table>
+                            <input type="text" class="new-text" id="yname" name="username" required maxlength="30"
+                                placeholder="    Full Name"><br>
                         <input type="email" class="email" id="email" name="email" required
                             placeholder="   Email Address"><br>
 
@@ -221,6 +232,7 @@
                                 <a href="#"><img src="images/Vectorc.jpg" alt=""></a>
                             </li>
                         </ul>
+                  
                     </form>
                     <div>
                         <h3 class="footer-text">wanjaladesmon75@email.com</h3>
