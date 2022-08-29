@@ -50,7 +50,7 @@ To make Portfolio website for users and clients.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/28919926).
 
 ## Show your support
 
