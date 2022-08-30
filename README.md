@@ -27,6 +27,9 @@ Run git clone + https://github.com/28919926/Portfolio-Mobile.git on your git bas
 
 To get a local copy up and running follow these simple example steps.
 
+## VIEW PAGE
+Incase you may be intrested in viewing my page you can visit https://28919926.github.io/Portfolio-Mobile/ for more information.
+
 ### Prerequisites
 Basic knowledge of HTML and CSS.
 
