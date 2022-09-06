@@ -140,7 +140,7 @@ h1 {
 
 .nav-links{
   flex: 1;
-  text-align: right;
+  text-align: center;
 }
 
 .nav-links ul li {
@@ -778,10 +778,11 @@ button:active {
     width: 97%;
   }
 
-  .nav-links ul li {
+  .nav-links ul {
     display: inline;
     justify-content: center;
-    left: 200%;
+    align-items: baseline;
+    margin-left: 5%;
   }
 
   #menu {
@@ -1049,7 +1050,7 @@ button:active {
   .text-form {
     display: flex;
   }
-.nav-links{
+.nav-links {
 display: block;
 text-align: left;
 position: absolute;
@@ -1060,7 +1061,7 @@ transition: 1s;
 cursor: pointer;
 top: 0;
 align-items: center;
-z-index: 2;
+z-index: 1;
 background: #FFFFFF;
 mix-blend-mode: normal;
 /* Base/ Soft */
