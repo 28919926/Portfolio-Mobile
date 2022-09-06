@@ -15,7 +15,7 @@
 
 nav {
   position: absolute;
-  width: 375px;
+  min-width: 375px;
   left: 0;
   right: 0;
   top: 44px;
@@ -36,7 +36,7 @@ a {
   flex-direction: row;
   align-items: flex-start;
   padding: 8px;
-  width: 40px;
+  min-width: 40px;
   height: 40px;
   right: 24px;
   top: calc(50% - 40px / 2);
@@ -777,6 +777,10 @@ button:active {
 .nav-links ul li a:hover {
   color: #36b37f;
 }
+#close{
+  display: none;
+ }
+
 
 @media screen and (min-width: 768px) {
   .main-container {
@@ -1015,17 +1019,24 @@ button:active {
   .form-container-button {
     margin-left: -3px;
   }
+  #close{
+    display: none;
+   }
 }
 
 @media screen and (max-width: 768px) {
-  .nav-links ul li {
-    display: none;
-  }
+  
 
   #menu {
     display: block;
+    color: #0a2759;
+    cursor: pointer;
   }
-
+ #close{
+  display: block;
+  color: #36b37e;
+  text-align: right;
+ }
   .about {
     display: block;
     margin-left: -100px;
@@ -1046,5 +1057,34 @@ button:active {
 
   .text-form {
     display: flex;
+  }
+.nav-links{
+display: block;
+text-align: left;
+position: absolute;
+width: 470px;
+height: 184vh;
+left: 12px;
+right: -700px;
+transition: 1s;
+cursor: pointer;
+top: 0px;
+align-items: center;
+z-index: 1;
+background: #FFFFFF;
+mix-blend-mode: normal;
+/* Base/ Soft */
+bottom: 57px;
+box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
+
+}
+  .nav-links ul li {
+    display: block;
+    margin: 30px;
+  }
+  .nav-links ul li a {
+    color: black;
+    font-size: 40px;
+  
   }
 }
