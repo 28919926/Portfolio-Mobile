@@ -1053,8 +1053,8 @@ button:active {
   .nav-links {
     display: block;
     text-align: left;
-    position: absolute;
-    width: 470px;
+    position: fixed;
+    width: 98vw;
     height: 184vh;
     right: -490px;
     transition: 1s;
@@ -1064,10 +1064,13 @@ button:active {
     z-index: 1;
     background: #fff;
     mix-blend-mode: normal;
-
-    /* Base/ Soft */
-
     box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: #3a4a42;
   }
 
   .nav-links ul li {
