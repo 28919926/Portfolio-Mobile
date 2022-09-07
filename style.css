@@ -15,7 +15,7 @@
 
 nav {
   position: absolute;
-  width: 375px;
+  min-width: 375px;
   left: 0;
   right: 0;
   top: 44px;
@@ -28,21 +28,6 @@ a {
   list-style: none;
   text-decoration: none;
   color: #3a4a42;
-}
-
-#menu {
-  cursor: pointer;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 8px;
-  width: 40px;
-  height: 40px;
-  right: 24px;
-  top: calc(50% - 40px / 2);
-  border-radius: 8px;
-  order: 0;
-  flex-grow: 0;
 }
 
 .welcome {
@@ -151,6 +136,11 @@ h1 {
   display: inline-flex;
   padding: 6px;
   margin-top: 50px;
+}
+
+.nav-links {
+  flex: 1;
+  text-align: center;
 }
 
 .nav-links ul li {
@@ -778,20 +768,28 @@ button:active {
   color: #36b37f;
 }
 
+#close {
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
   .main-container {
     margin: auto;
     width: 97%;
   }
 
-  .nav-links ul li {
+  .nav-links ul {
     display: inline;
-    flex-direction: row;
     justify-content: center;
-    left: 200%;
+    align-items: baseline;
+    margin-left: 5%;
   }
 
   #menu {
+    display: none;
+  }
+
+  #close {
     display: none;
   }
 
@@ -1018,12 +1016,16 @@ button:active {
 }
 
 @media screen and (max-width: 768px) {
-  .nav-links ul li {
-    display: none;
-  }
-
   #menu {
     display: block;
+    color: #0a2759;
+    cursor: pointer;
+  }
+
+  #close {
+    display: block;
+    color: #36b37e;
+    text-align: right;
   }
 
   .about {
@@ -1046,5 +1048,38 @@ button:active {
 
   .text-form {
     display: flex;
+  }
+
+  .nav-links {
+    display: block;
+    text-align: left;
+    position: fixed;
+    width: 98vw;
+    height: 184vh;
+    right: -490px;
+    transition: 1s;
+    cursor: pointer;
+    top: 0;
+    align-items: center;
+    z-index: 1;
+    background: #fff;
+    mix-blend-mode: normal;
+    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: #3a4a42;
+  }
+
+  .nav-links ul li {
+    display: block;
+    margin: 30px;
+  }
+
+  .nav-links ul li a {
+    color: black;
+    font-size: 40px;
   }
 }
