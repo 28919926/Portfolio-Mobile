@@ -7,6 +7,7 @@ function hideMenu() {
   nav.style.right = '-500px';
   nav.classList.remove('active');
 }
+
 nav.forEach((n) => n.addEventListener('click', hideMenu));
 
 function afterClick() {
