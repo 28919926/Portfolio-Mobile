@@ -6,15 +6,16 @@
 }
 
 .main-container {
-  position: relative;
-  min-width: 375px;
-  min-height: 6680px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background: #fff;
   overflow: hidden;
 }
 
 nav {
-  position: absolute;
+  
   min-width: 375px;
   left: 0;
   right: 0;
@@ -46,9 +47,7 @@ a {
   line-height: 28px;
   text-align: center;
   color: #28352f;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+ 
 }
 
 .headline {
@@ -59,7 +58,7 @@ a {
   gap: 58px;
   background-image: url(/images/header-illsutration-mobile.png);
   background-repeat: no-repeat;
-  position: absolute;
+ 
   min-height: 726px;
   left: 0;
   top: 92px;
@@ -75,9 +74,7 @@ h1 {
   line-height: 52px;
   text-align: center;
   color: #172b4d;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+ 
   margin-left: -24px;
 }
 
@@ -96,9 +93,7 @@ h1 {
   text-align: center;
   color: #172b4d;
   margin-left: -24px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
+ 
   transition: all 0.8s;
   animation-duration: 2s;
   animation-name: text-slide;
@@ -147,7 +142,7 @@ h1 {
   list-style: none;
   display: inline;
   padding: 8px 12px;
-  position: relative;
+ 
   justify-content: space-between;
   text-decoration: none;
 }
@@ -169,9 +164,7 @@ h1 {
   height: 20px;
   justify-content: space-between;
   display: inline;
-  flex: none;
-  order: 2;
-  flex-grow: 0;
+ 
 }
 
 .recent-works {
@@ -180,7 +173,7 @@ h1 {
   align-items: center;
   padding: 64px 24px;
   gap: 58px;
-  position: absolute;
+ 
   height: 3283px;
   left: 0;
   top: 708px;
@@ -189,9 +182,7 @@ h1 {
 .action {
   min-width: 327px;
   height: 48px;
-  flex: none;
-  order: 3;
-  flex-grow: 0;
+  
 }
 
 #text2 {
@@ -209,9 +200,7 @@ h1 {
   line-height: 52px;
   text-align: center;
   color: #172b4d;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+
 }
 
 #indicator {
@@ -220,9 +209,7 @@ h1 {
   margin: -30px;
   background: #36b37e;
   border-radius: 24px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
+  
 }
 
 .card-work-row {
@@ -231,11 +218,10 @@ h1 {
   align-items: center;
   padding: 4px 2px;
   gap: 24px;
-  width: 331px;
-  height: 2972px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
+  justify-content: center;
+  text-align: center;
+
+  
 }
 
 .card {
@@ -244,6 +230,10 @@ h1 {
   background: #ebf0ee;
   border: 1px solid #d0d9d4;
   border-radius: 8px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .card-text {
@@ -256,11 +246,10 @@ h1 {
   margin-left: -2px;
   min-width: 296px;
   min-height: 222px;
-  left: calc(50% - 296px / 2);
-  bottom: 0;
   border: 1px solid #d0d9d4;
   background: #fff;
   border-radius: 8px;
+  justify-content: center;
 }
 
 .card-title {
@@ -275,9 +264,7 @@ h1 {
   align-items: center;
   text-align: center;
   color: #3a4a42;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+
 }
 
 .tags {
@@ -288,9 +275,7 @@ h1 {
   gap: 8px;
   min-width: 305px;
   min-height: 32px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
+
 }
 
 .ruby {
@@ -300,9 +285,7 @@ h1 {
   padding: 8px 12px;
   background: #ebf0ee;
   border-radius: 4px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  
   width: 80px;
   height: 16px;
   font-family: "Inter", sans-serif;
@@ -321,9 +304,7 @@ h1 {
   padding: 8px 12px;
   background: #ebf0ee;
   border-radius: 4px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
+
   width: 21px;
   height: 16px;
   font-family: "Inter", sans-serif;
@@ -342,9 +323,7 @@ h1 {
   padding: 8px 12px;
   background: #ebf0ee;
   border-radius: 4px;
-  flex: none;
-  order: 2;
-  flex-grow: 0;
+
   width: 58px;
   height: 16px;
   font-family: "Inter", sans-serif;
@@ -363,9 +342,7 @@ h1 {
   padding: 8px 12px;
   background: #ebf0ee;
   border-radius: 4px;
-  flex: none;
-  order: 3;
-  flex-grow: 0;
+
   width: 27px;
   height: 16px;
   font-family: "Inter", sans-serif;
@@ -378,18 +355,11 @@ h1 {
 }
 
 button {
-  flex: none;
-  order: 2;
-  flex-grow: 0;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 12px;
-  gap: 10px;
+  
   margin-top: 35px;
-  width: 128px;
-  height: 48px;
-  left: calc(50% - 122px / 2 + 0.5px);
+ padding: 12px;
+  
+  bottom: 0;
   background: #36b37f;
   border-radius: 4px;
   font-family: "Inter", sans-serif;
@@ -422,11 +392,7 @@ button:active {
   align-items: center;
   padding: 64px 24px;
   gap: 58px;
-  margin-top: 120px;
-  position: absolute;
-  height: 1625px;
-  left: 0;
-  top: 3927px;
+  
   background-image: url(/images/illustration-\ about\ me.png);
   background-repeat: no-repeat;
 }
@@ -439,9 +405,7 @@ button:active {
   gap: 24px;
   min-width: 351px;
   height: 333px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+
 }
 
 .P-text {
@@ -457,9 +421,7 @@ button:active {
   align-items: center;
   text-align: center;
   color: #172b4d;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+ 
 }
 
 .S-text {
@@ -472,9 +434,7 @@ button:active {
   line-height: 32px;
   text-align: center;
   color: #42526e;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
+
 }
 
 #resume-button {
@@ -488,7 +448,7 @@ button:active {
   background: #36b37f;
   border-radius: 4px;
   flex: none;
-  order: 2;
+  
   flex-grow: 0;
 }
 
@@ -505,9 +465,7 @@ button:active {
   gap: 24px;
   min-width: 327px;
   min-height: 1106px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
+ 
 }
 
 .card-works {
@@ -517,9 +475,7 @@ button:active {
   background: #ebf0ee;
   border: 1px solid #c1c7d0;
   border-radius: 8px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+
 }
 
 .languages {
@@ -582,7 +538,6 @@ button:active {
   background-repeat: no-repeat;
   background-position-y: bottom;
   background-position-x: right;
-  position: absolute;
   height: 879px;
   left: 0;
   top: 5483px;
@@ -598,9 +553,7 @@ button:active {
   line-height: 52px;
   text-align: center;
   color: #172b4d;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -617,9 +570,7 @@ button:active {
   gap: 24px;
   min-width: 327px;
   height: 330px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
+ 
   justify-content: center;
   margin-top: 90px;
 }
@@ -627,9 +578,7 @@ button:active {
 .text-form {
   min-width: 327px;
   height: 48px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+
   left: 16px;
   right: 16px;
   top: calc(50% - 18px / 2);
@@ -651,12 +600,9 @@ button:active {
 .new-text {
   min-width: 327px;
   height: 48px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+
   left: 16px;
   right: 16px;
-  top: calc(50% - 18px / 2);
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -675,9 +621,7 @@ button:active {
 .email {
   width: 327px;
   height: 48px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
+  
   left: 16px;
   right: 16px;
   top: calc(50% - 18px / 2);
@@ -699,9 +643,6 @@ button:active {
 .textarea {
   width: 327px;
   height: 114px;
-  flex: none;
-  order: 2;
-  flex-grow: 0;
   box-sizing: border-box;
   left: 0;
   right: 0;
@@ -737,6 +678,7 @@ button:active {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #fff;
+ 
 }
 
 .footer-text {
@@ -758,9 +700,7 @@ button:active {
   height: 20px;
   justify-content: space-between;
   display: inline;
-  flex: none;
-  order: 2;
-  flex-grow: 0;
+
   margin-left: 70px;
 }
 
@@ -773,9 +713,10 @@ button:active {
 }
 
 @media screen and (min-width: 768px) {
+
   .main-container {
-    margin: auto;
-    width: 97%;
+
+    width: 100%;
   }
 
   .nav-links ul {
@@ -853,17 +794,13 @@ button:active {
   }
 
   .card-work-row {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 4px 8px;
-    gap: 22px;
-    width: 1371px;
-    height: 450px;
-    flex-grow: 0;
-    order: 1;
-    flex-wrap: wrap;
-    padding-left: 20%;
+    display: grid;
+   grid-template-columns: auto auto auto;
+   
+    padding: 30px 0px;
+    column-gap: 30px;
+   width: 100%;
+   
   }
 
   .about-me {
@@ -963,9 +900,7 @@ button:active {
   .last-name {
     min-width: 360px;
     height: 48px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+   
     left: 16px;
     right: 16px;
     top: calc(50% - 18px / 2);
@@ -991,7 +926,7 @@ button:active {
     right: 0;
     top: calc(50% - 48px / 2);
     width: 684px;
-    order: 1;
+  
   }
 
   .textarea {
@@ -1083,3 +1018,202 @@ button:active {
     font-size: 40px;
   }
 }
+
+
+.popup-container{
+ 
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 86px;
+  }
+  
+  .snapshot {
+ 
+  width: 872px;
+  /* height: 616px; */
+  left: 24px;
+  top: 78px;
+  border: 1px solid #DFE1E6;
+  border-radius: 8px;
+  background-image: url(/images/Snapshoot\ Portfolio.png);
+  background-repeat: no-repeat;
+  }
+  
+  .popup-title{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+  
+ 
+  min-width: 869px;
+  min-height: 82px;
+  left: 26px;
+  top: 718px;
+  
+  }
+  
+  h2 {
+  width: 589px;
+  height: 82px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px; 
+  color: #172B4D;
+
+  }
+  
+  .btn-pop {
+      display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+  justify-content: space-between;
+  }
+  
+  .btn-pop li {
+      list-style: none;
+  background: #36B37E;  
+  }
+  .btn-pop li a{
+      list-style: none;
+      text-decoration: none;
+      color: #FFFFFF;
+      border-radius: 8px;
+      
+  }
+  .pop-tag{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+
+  width: 500px;
+  height: 32px;
+  left: 24px;
+  top: 820px;
+  }
+  .pop-tag li {
+      display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 12px;
+  
+  width: 72px;
+  height: 25px;
+  background: #EBECF0;
+  border-radius: 8px;  
+  
+  }
+  .pop-tag li a{
+  width: 60px;
+  height: 16px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;  
+  letter-spacing: 0.03em;
+  color: #344563;
+  text-decoration: none;
+  }
+  
+  .popup-text {
+      display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
+ 
+  width: 876px;
+  height: 151px;
+  left: 24px;
+  top: 888px;
+  font-family: 'Inter',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #344563;
+  }
+  
+  @media screen and (max-width: 768px){
+      .snapshot{
+  width: 311px;
+  height: 220px;
+  
+  background: url(/images/Snapshoot\ Portfolio\ \(4\).png);
+  background-repeat: no-repeat;
+  border-radius: 8px;
+      }
+     h2{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 0px;
+      gap: 12px;
+      width: 259px;
+      height: 130px;
+     
+      }
+  .popup-title{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+  width: 259px;
+  height: 179px;
+  
+  }
+  .popup-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
+  width: 311px;
+  height: 313px;  
+  
+  }
+  .pop-tag {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+  width: 246px;
+  height: 32px;  
+
+  }
+  .pop-tag .mobile-tag{
+      display: none;
+  }
+  .popup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px;
+  gap: 12px;
+  
+  width: 343px;
+  height: 836px;
+  left: calc(50% - 343px/2);
+  top: 20px; 
+  background: #FFFFFF;
+  border: 1px solid #DFE1E6;
+  border-radius: 16px;
+  }
+  .btn-pop{
+      flex: none;
+
+  }
+  }  
