@@ -3,56 +3,55 @@ const projects = [
     titile: 'Multi-Post Stories Gain+Glory',
     language: ['Ruby on Rails', 'CSS', 'JavScript', 'html'],
     button: 'See Project',
-},
+  },
 
   {
     titile: 'Multi-Post Stories Gain+Glory',
     language: ['Ruby on Rails', 'CSS', 'JavScript', 'html'],
-    button: 'See Project'
-},
+    button: 'See Project',
+  },
 
   {
     titile: 'Multi-Post Stories Gain+Glory',
     language: ['Ruby on Rails', 'CSS', 'JavScript', 'html'],
-    button: 'See Project'
-},
+    button: 'See Project',
+  },
 
   {
     titile: 'Multi-Post Stories Gain+Glory',
     language: ['Ruby on Rails', 'CSS', 'JavScript', 'html'],
-    button: 'See Project'
-},
+    button: 'See Project',
+  },
 
   {
     titile: 'Multi-Post Stories Gain+Glory',
     language: ['Ruby on Rails', 'CSS', 'JavScript', 'html'],
-    button: 'See Project'
-},
+    button: 'See Project',
+  },
 
   {
-      titile: 'Multi-Post Stories Gain+Glory',
-      language: ['Ruby on Rails', 'CSS', 'JavScript', 'html'],
-      button: 'See Project'
-  }
+    titile: 'Multi-Post Stories Gain+Glory',
+    language: ['Ruby on Rails', 'CSS', 'JavScript', 'html'],
+    button: 'See Project',
+  },
 ];
 
-
-let collection = document.querySelector('.card-work-row');
-projects.forEach(cards =>{
+const collection = document.querySelector('.card-work-row');
+projects.forEach((cards) => {
   collection.innerHTML += `
   <div class="card" id="demo-card">
   <div class="card-text">
-      <h3 class="card-title">${cards['titile']}</h3>
+      <h3 class="card-title">${cards.titile}</h3>
       <ul class="tags">
-        <li class="ruby">${cards['language'][0]}</li>
-        <li class="css">${cards['language'][1]}</li>
-        <li class="javscript">${cards['language'][2]}</li>
-        <li class="html">${cards['language'][3]}</li>
+        <li class="ruby">${cards.language[0]}</li>
+        <li class="css">${cards.language[1]}</li>
+        <li class="javscript">${cards.language[2]}</li>
+        <li class="html">${cards.language[3]}</li>
       </ul>
-      <button type="button" onclick="popupHTML(${cards})">${cards['button']}</button>
+      <button type="button" onclick="popupHTML(${cards})">${cards.button}</button>
   </div>
 </div>`;
-})
+});
 
 const worksInfo = [
   {
@@ -146,12 +145,11 @@ const worksInfo = [
   },
 ];
 
-
 const popup = document.querySelector('.popoverlay');
 // eslint-disable-next-line no-unused-vars
 function popupHTML(pop) {
-  popoverlay.style.display = 'flex';
-  popoverlay.innerHTML = `
+  popup.style.display = 'flex';
+  popup.innerHTML = `
     <div class="popup-background">
     <div class="close-button-container">
     <li id="close" class="material-icons" >close</li>
@@ -170,15 +168,17 @@ function popupHTML(pop) {
     </div>
     </div>
     <div class="tags">
-    <ul class="tags-desktop" id="mytech">
-        ${worksInfo[pop].technologiesDesktop.map((ele) => `<li>${ele}</>`)}
-        <li class="ruby">${pop['technologiesDesktop'][0]}</li>
-        <li class="css">${cards['language'][1]}</li>
-        <li class="javscript">${cards['language'][2]}</li>
-        <li class="html">${cards['language'][3]}</li>
-        </ul>
-        <ul class="tags-mobile" id="mobile-ul">
-        ${worksInfo[pop].technologiesMobile.map((ele) => `<li>${ele}</>`)}
+    <ul class="tags-desktop" id="mytech">  
+           <li>${pop.technologiesDesktop[0]}</li>
+           <li>${pop.technologiesDesktop[1]}</li>
+           <li>${pop.technologiesDesktop[2]}</li>
+           <li >${pop.technologiesDesktop[3]}</li>
+           <li>${pop.technologiesDesktop[4]}</li>
+           <li>${pop.technologiesDesktop[5]}</li>
+     </ul>
+    <ul class="tags-mobile" id="mobile-ul">
+        <li>${pop.technologiesMobile[0]}</li>
+        <li>${pop.technologiesMobile[1]}</li>
     </ul>
     </div>
     <div class="desc">
@@ -186,13 +186,13 @@ function popupHTML(pop) {
     </div>
     <div class="popup-button-mobile">
     <button class="a1">See live<img class="button-icon" src="${worksInfo[pop].liveIcon}"></button>
-    <button class="a1" id="btn2">See Source<img class="button-icon" src="${worksInfo[id].githubIcon}"></button>
+    <button class="a1" id="btn2">See Source<img class="button-icon" src="${worksInfo[pop].githubIcon}"></button>
     </div>
     </div>
     </div>
     `;
   const popupClose = document.querySelector('button');
   popupClose.addEventListener('click', () => {
-    popoverlay.style.display = 'none';
+    popup.style.display = 'none';
   });
 }
