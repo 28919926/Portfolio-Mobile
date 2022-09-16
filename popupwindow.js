@@ -55,7 +55,7 @@ projects.forEach((cards) => {
 
 const worksInfo = [
   {
-    projects: 1,
+    projects: '1',
     gridClass: 'w1',
     name: 'Keeping tracks of hunders of components',
     projectDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
@@ -70,7 +70,7 @@ const worksInfo = [
   },
 
   {
-    projects: 2,
+    projects: '2',
     gridClass: 'w2',
     name: 'Keeping tracks of hunders of components',
     projectDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
@@ -85,7 +85,7 @@ const worksInfo = [
   },
 
   {
-    projects: 3,
+    projects: '3',
     gridClass: 'w3',
     name: 'Keeping tracks of hunders of components',
     projectDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
@@ -100,7 +100,7 @@ const worksInfo = [
   },
 
   {
-    projects: 4,
+    projects: '4',
     gridClass: 'w4',
     name: 'Keeping tracks of hunders of components',
     projectDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
@@ -115,7 +115,7 @@ const worksInfo = [
   },
 
   {
-    projects: 5,
+    projects: '5',
     gridClass: 'w5',
     name: 'Keeping tracks of hunders of components',
     projectDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
@@ -130,7 +130,7 @@ const worksInfo = [
   },
 
   {
-    projects: 6,
+    projects: '6',
     gridClass: 'w6',
     name: 'Keeping tracks of hunders of components',
     projectDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
