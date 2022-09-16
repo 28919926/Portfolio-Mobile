@@ -225,8 +225,8 @@ h1 {
 }
 
 .card {
-  min-width: 327px;
-  min-height: 474px;
+  width: 327px;
+  height: 474px;
   background: #ebf0ee;
   border: 1px solid #d0d9d4;
   border-radius: 8px;
@@ -244,8 +244,8 @@ h1 {
   gap: 16px;
   margin-top: 230px;
   margin-left: -2px;
-  min-width: 296px;
-  min-height: 222px;
+  width: 296px;
+  height: 222px;
   border: 1px solid #d0d9d4;
   background: #fff;
   border-radius: 8px;
@@ -273,8 +273,9 @@ h1 {
   align-items: center;
   padding: 0;
   gap: 8px;
-  min-width: 305px;
-  min-height: 32px;
+  width: 305px;
+  height: 32px;
+  margin-left: 10%;
 
 }
 
@@ -285,8 +286,7 @@ h1 {
   padding: 8px 12px;
   background: #ebf0ee;
   border-radius: 4px;
-  
-  width: 80px;
+width: 85px;
   height: 16px;
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -469,8 +469,8 @@ button:active {
 }
 
 .card-works {
-  min-width: 327px;
-  min-height: 352px;
+  width: 327px;
+  height: 352px;
   box-sizing: border-box;
   background: #ebf0ee;
   border: 1px solid #c1c7d0;
@@ -718,7 +718,9 @@ button:active {
 
     width: 100%;
   }
-
+.tags{
+  margin-left: 190%;
+}
   .nav-links ul {
     display: inline;
     justify-content: center;
@@ -1217,3 +1219,5 @@ button:active {
 
   }
   }  
+
+  
