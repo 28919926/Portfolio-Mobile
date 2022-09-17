@@ -3,6 +3,7 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 .main-container {
@@ -11,7 +12,7 @@
   justify-content: center;
   align-items: center;
   background: #fff;
-  overflow: hidden;
+  
 }
 
 nav {
@@ -173,8 +174,7 @@ h1 {
   align-items: center;
   padding: 64px 24px;
   gap: 58px;
- 
-  height: 3283px;
+
   left: 0;
   top: 708px;
 }
@@ -225,8 +225,7 @@ h1 {
 }
 
 .card {
-  width: 327px;
-  height: 474px;
+ 
   background: #ebf0ee;
   border: 1px solid #d0d9d4;
   border-radius: 8px;
@@ -244,8 +243,7 @@ h1 {
   gap: 16px;
   margin-top: 230px;
   margin-left: -2px;
-  width: 296px;
-  height: 222px;
+ 
   border: 1px solid #d0d9d4;
   background: #fff;
   border-radius: 8px;
@@ -273,8 +271,7 @@ h1 {
   align-items: center;
   padding: 0;
   gap: 8px;
-  width: 305px;
-  height: 32px;
+  
   margin-left: 10%;
 
 }
@@ -286,8 +283,7 @@ h1 {
   padding: 8px 12px;
   background: #ebf0ee;
   border-radius: 4px;
-width: 85px;
-  height: 16px;
+
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -305,8 +301,6 @@ width: 85px;
   background: #ebf0ee;
   border-radius: 4px;
 
-  width: 21px;
-  height: 16px;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -324,8 +318,6 @@ width: 85px;
   background: #ebf0ee;
   border-radius: 4px;
 
-  width: 58px;
-  height: 16px;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -339,12 +331,10 @@ width: 85px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 8px 12px;
+  padding:  12px;
   background: #ebf0ee;
   border-radius: 4px;
 
-  width: 27px;
-  height: 16px;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -463,8 +453,7 @@ button:active {
   align-items: center;
   padding: 1px;
   gap: 24px;
-  min-width: 327px;
-  min-height: 1106px;
+ 
  
 }
 
@@ -695,6 +684,15 @@ button:active {
   border-radius: nullpx;
 }
 
+.lable{
+  color: red;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 26px;
+  font-family: "Inter", sans-serif;
+  border-style: groove;
+}
+
 .form-social {
   width: 170.17px;
   height: 20px;
@@ -807,10 +805,7 @@ button:active {
 
   .about-me {
     flex-direction: column;
-    width: 1171px;
-    height: 808px;
-    left: 135px;
-    top: 2031px;
+  
     display: flex;
   }
 
@@ -818,7 +813,7 @@ button:active {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: -280px;
+   
   }
 
   .card-works {
@@ -862,6 +857,177 @@ button:active {
     line-height: 52px;
     color: #172b4d;
   }
+
+  /* POPUP CSS */
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   }
+   
+   li {
+     list-style: none;
+   }
+   
+   a {
+     text-decoration: none;
+     color: #344563;
+   }
+     
+   .popup-background {
+    display: flex;
+     background-color: #fff;
+    flex-direction: column;
+     border-radius: 8px;
+     box-shadow: 0 48px 48px;
+     width: 90%;
+     padding: 0 24px;
+   
+   }
+
+   .popwindow {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 2%;
+    bottom: 3%;
+    left: 2%;
+    right: 2%;
+    margin-right: 5%;
+   }
+       .container-popup {
+         display: flex;
+         flex-direction: column;
+         width: 100%;
+       }
+     
+       .close-button-container {
+         
+         display: flex;
+         justify-content: flex-end;
+         width: 100%;
+         margin: 24px;
+       }
+     
+       .popup-close-button {
+         cursor: pointer;
+         margin-top: 5px;
+         margin-right: 5px;
+       }
+     
+       .popup-image-mbl {
+         display: none;
+       }
+     
+       #title-btn {
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+         text-align: center;
+         width: 100%;
+       }
+     
+       .popup-button-desktop {
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+         width: 40%;
+         justify-content: end;
+         gap: 1.5rem;
+       
+       }
+     
+       .popup-button-mobile {
+         display: none;
+         background: #36b37e;
+       }
+     
+       .popup-image-dsk {
+       width: 90%;
+       height: 20%;
+       }
+     
+         .tags{
+           width: 100%;
+           margin: 20px 0;
+         }
+   
+       .tags-mobile {
+         display: flex;
+         width: 60%;
+         justify-content: space-between;
+         background-color: #fff;
+       }
+         .tags-mobile li {
+           background: #EBECF0;
+           border-radius: 8px;
+           padding: 10px;
+         
+         }
+      
+   
+   
+     
+       #title-div {
+        width: 60%;
+        justify-content: flex-start;
+        display: flex;
+         text-align: start;
+       }
+     
+       .popup-title {
+         width: 589px;
+         height: 82px;
+         font-family: "Inter", sans-serif !important;
+         font-style: normal;
+         font-weight: 700;
+         font-size: 32px;
+         line-height: 44px;
+         color: #172b4d;
+       }
+   
+     
+       .popup-description {
+        
+         font-family: "Inter", sans-serif !important;
+         font-style: normal;
+         font-weight: 400;
+         font-size: 16px;
+         line-height: 30px;
+         color: #344563;
+         margin-bottom: 44px;
+       }
+     
+       .popup button {
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+         justify-content: center;
+         padding: 12px;
+         gap: 10px;
+         border: 0;
+         width: 115px;
+         height: 48px;
+         color: #fff;
+         background: #36b37e;
+         border-radius: 8px;
+         margin: 12px 12px 12px 0;
+       }
+     
+      
+     .a1{
+       background-color: #36b37e;
+       color: #fff;
+       padding: 12px 14px;
+       border-radius: 8px;
+       border: none;
+       display: flex;
+       align-items: center;
+       text-align: center;
+       gap: 5px;
+     }
+     
+  /* POPUP CSS */
 
   .form {
     display: flex;
